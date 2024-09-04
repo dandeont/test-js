@@ -21,3 +21,9 @@ document.getElementById('countDisplay').innerHTML=count; // Display the count in
     displayCount(); // Display the count
     checkCountValue(); // Check count value and display messages
   }
+
+  function resetCount(){
+    count=0;
+    displayCount();
+    alert("The follower count has been reset.")
+  }
